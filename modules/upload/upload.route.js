@@ -1,4 +1,4 @@
-import uploadController from "./upload.controller"
+import uploadController from "./upload.controller.js"
 
 export default async function uploadRoutes(
     fastify,
