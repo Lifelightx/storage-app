@@ -13,7 +13,7 @@ export async function buildApp(){
     await app.register(postgresPlugin);
 
     await app.register(uploadRoutes, {
-        prefix: "/api",
+        prefix: "/api/upload",
     })
 
     return app;
